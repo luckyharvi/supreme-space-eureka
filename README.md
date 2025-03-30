@@ -1,5 +1,53 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
 
+## How to Run This Project
+
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**  
+    Clone this repository to your local machine or open it directly in GitHub Codespaces.
+
+    ```bash
+    git clone https://github.com/MicrosoftDocs/mslearn-advanced-copilot.git
+    cd mslearn-advanced-copilot
+    ```
+
+2. **Set Up the Environment**  
+    Ensure you have Python installed (version 3.8 or higher). Create and activate a virtual environment:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. **Install Dependencies**  
+    Install the required Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Application**  
+    Start the application locally:
+
+    ```bash
+    uvicorn main:app --reload
+    ```
+
+    The application will be available at `http://127.0.0.1:8000`.
+
+5. **Explore the API**  
+    Visit the `/docs` endpoint in your browser to explore the API documentation and test the endpoints interactively.
+
+6. **Run Tests**  
+    To ensure everything is working as expected, run the test suite:
+
+    ```bash
+    pytest
+    ```
+
+You're now ready to start using and extending the project![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
+
 # Apply advanced GitHub Copilot techniques
 Discover new ways to leverage advanced GitHub Copilot techniques within a Python repository to implement an interactive HTML form and an Application Programming Interface (API) endpoint. 
 Gain more practical experience by using this repository that contains a Python Web Application that hosts a Travel Weather API.
